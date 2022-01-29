@@ -1,0 +1,47 @@
+{
+  "packages": [
+    {
+      "name": "FAD_DEV",
+      "maintainer": "F.A.D. Developments",
+      "websiteURL": "https://github.com/Raisa79/FAD-ArdBoards",
+      "email": "undefineduser@gmail.com",
+      "help": {
+        "online": "https://github.com/Raisa79/FAD-ArdBoards"
+      },
+      "platforms": [
+        {
+          "category": "FAD_Developments",
+          "name": "avr",
+          "url": "https://github.com/Raisa79/FAD-ArdBoards/blob/master/FAD_Development_0.0.1.zip",
+          "version": "0.0.1",
+          "architecture": "avr",
+          "archiveFileName": "FAD_Development_0.0.1.zip",
+          "boards": [
+            {
+              "name": "USB ARGB Controller 16-Channel V1.0"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "7.3.0-atmel3.6.1-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.3.0-arduino18"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.3.0"
+            }
+          ],
+          "size": "13415914",
+          "checksum": "SHA-256:653add97df0a850ebc26f105355be749fb83c2db7b1ddf3e77950e694059eb9c"
+        }
+      ]
+    }
+  ]
+}
